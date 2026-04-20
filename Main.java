@@ -18,7 +18,7 @@ public class Main {
         System.out.println("   Welcome to the Registration   ");
         System.out.println("========================================\n");
 
-        // ── Collect user details ──────────────────
+        // ── UserDetails──────────────────
         System.out.print("Enter your first name    : ");
         String firstName = input.nextLine();
 
@@ -44,7 +44,7 @@ public class Main {
         System.out.println("\n--- Registration Status ---");
         System.out.println(registrationResult);
 
-        // ── Attempt login if registration passed ──
+        // ── output if passed ──
         boolean registrationPassed =
             registrationResult.contains("successfully captured");
 
