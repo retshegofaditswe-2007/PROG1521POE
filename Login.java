@@ -110,7 +110,7 @@ public class Login {
     }
 
     // ═════════════════════════════════════════════
-    // LOGIN METHODS
+    // Login method
     // ═════════════════════════════════════════════
 
     /*
@@ -140,7 +140,7 @@ public class Login {
     }
 
     // ═════════════════════════════════════════════
-    // GETTERS
+    // GETTERS AND SETTERS
     // ═════════════════════════════════════════════
     public String fetchUsername()   { return username; }
     public String fetchPassword()   { return password; }
